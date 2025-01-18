@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Folder</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="practice.css" />
+    <link rel="stylesheet" href="practice.js" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </head>
+  <body>
+    <!-- background color change using click button by GeeksforGeeks -->
+    <h1>
+        Change Background Color
+    </h1>
+
+    <button onclick="myFunc()" type="button">
+        Click here
+    </button>
+
+    <h2 id="GFG"></h2>
+<!-- css script -->
+    <!-- <script>
+        let result = document.getElementById("GFG");
+
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+
+        function myFunc() {
+            changeColor('yellow');
+            result.innerHTML = "Background Color changed";
+        }        
+    </script> -->
+    <!-- jquery script -->
+     <script>
+        $('button').on('click', function () {
+            $('body').css('background', '#ccc');
+            $('#GFG').text("Background Color Changed!");
+        });
+    </script>
+</body>
+</html>

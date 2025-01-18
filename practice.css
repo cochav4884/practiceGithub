@@ -1,0 +1,21 @@
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,37,107,1) 35%, rgba(0,212,255,1) 100%);
+text-align: center;
+}
+
+h1 {
+    color: rgba(2,0,36,1);
+}
+
+.alert {
+    text-align: center;
+}
+
+.click{
+    background-color: rgba(37,37,107,1);
+}
+
+#GFG {
+    color: rgba(0,212,255,1);
+}
